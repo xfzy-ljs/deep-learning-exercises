@@ -132,5 +132,5 @@ history_model1=model.fit(
 train_loss, train_acc = model.evaluate(train_ds)
 val_loss, val_acc = model.evaluate(val_ds)
 print(f"\n 训练集准确率: {train_acc:.4f} 训练集损失: {train_loss:.4f}")
-print(f"\n 验证集准确率: {val_acc:.4f} 验证集损失: {train_loss:.4f}")
+print(f"\n 验证集准确率: {val_acc:.4f} 验证集损失: {val_loss:.4f}")
 # use tensorboard --logdir "D:\project\Yamaguchi University\Research\Practice\CNN\logs" to check the graphs
